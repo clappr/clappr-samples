@@ -37,8 +37,10 @@ module.exports = {
       }
     ],
   },
+  externals: {
+    Clappr: 'Clappr'
+  },
   resolve: {
-    external: { Clappr: 'Clappr' },
     root: path.resolve(__dirname, 'src'),
     extensions: ['', '.js'],
   }
