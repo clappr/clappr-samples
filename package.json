@@ -4,6 +4,8 @@
   "description": "A collection of samples and examples on how to work with Clappr.",
   "main": "index.js",
   "scripts": {
+    "build": "node_modules/.bin/webpack --quiet --no-info",
+    "release": "node_modules/.bin/webpack --quiet --no-info -d --optimize-mangle --optimize-dedupe --optimize-occurence-order --output-filename clappr-samples.min.js",
     "start": "node_modules/.bin/webpack-dev-server --host 0.0.0.0 --content-base public/ --output-public-path latest/ --hot",
     "test": ""
   },
