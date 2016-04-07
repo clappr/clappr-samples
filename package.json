@@ -1,0 +1,44 @@
+{
+  "name": "clappr-samples",
+  "version": "1.0.0",
+  "description": "A collection of samples and examples on how to work with Clappr.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --host 0.0.0.0 --content-base public/ --output-public-path latest/ --hot",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/clappr/clappr-samples.git"
+  },
+  "keywords": [
+    "clappr",
+    "plugin",
+    "samples"
+  ],
+  "author": "Bruno Torres <me@brunotorr.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clappr/clappr-samples/issues"
+  },
+  "homepage": "https://github.com/clappr/clappr-samples#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-es2015-classes": "^6.6.5",
+    "babel-preset-es2015": "^6.6.0",
+    "clappr": "^0.2.47",
+    "clappr-zepto": "0.0.4",
+    "clean-webpack-plugin": "^0.1.8",
+    "compass-mixins": "^0.12.7",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.3",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.2.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
