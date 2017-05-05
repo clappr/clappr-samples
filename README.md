@@ -1,5 +1,7 @@
 ### Running the samples
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/clappr/clappr-samples.svg)](https://greenkeeper.io/)
+
 - Clone this repository
 - `npm install`
 - `npm start`
